@@ -1,0 +1,64 @@
+body {
+    background: lightskyblue;
+}
+
+.api_config, #container {
+    width: 320px;
+    padding: 20px;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.2);
+}
+
+.back {
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.back_arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+
+input[type=text] {
+    margin: 10px 0;
+    border: 0;
+    outline: 0;
+}
+
+button {
+    margin: 15px;
+    cursor: pointer;
+    outline: 0;
+    background-color: lightgreen;
+}
+
+input[type=submit]:hover {
+    box-shadow: -2px -2px 10px 4px rgba(0,0,0,0.2);
+}
+
+#setting_api {
+    display: inline-block;
+    width: 100%;
+    background: lightgrey;
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.2);
+}
+
+
+
